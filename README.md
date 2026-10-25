@@ -4,7 +4,7 @@
 
 The exercise here is to build out a training loop for an MNIST classifier using only numpy (vs. pytorch, etc.) to gain an appreciation and understanding of how neural networks actually work from the math up.
 
-All of it fits nicely into a Jupyter Notebook.
+All of it fits nicely into a [Jupyter Notebook](mnist-notebook.ipynb).
 
 I added some graphs for flavor at the bottom.
 
@@ -93,3 +93,6 @@ $b^{[1]} = b^{[1]} - \alpha db^{[1]}$
 $W^{[2]} = W^{[2]} - \alpha dW^{[2]}$
 
 $b^{[2]} = b^{[2]} - \alpha db^{[2]}$ 
+
+
+GOTO the [mnist-notebook.ipynb](mnist-notebook.ipynb)
