@@ -1,12 +1,12 @@
-# Training MNIST using numpy (no torch)
+# Training an MNIST classifier with numpy
 
 # Motivation
 
 The exercise here is to build out a training loop for an MNIST classifier using only numpy (vs. pytorch, etc.) to gain an appreciation and understanding of how neural networks actually work from the math up.
 
-All of it fits nicely into a [Jupyter Notebook](mnist-notebook.ipynb).
+All of it fits nicely into the [mnist-notebook.ipynb](mnist-notebook.ipynb).
 
-I added some graphs for flavor at the bottom.
+I added some graphs at the bottom of the notebook for flavor.
 
 
 
