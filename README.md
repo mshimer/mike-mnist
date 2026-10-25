@@ -1,17 +1,33 @@
 # Study Project : Train MNIST using numpy (no torch)
 
+# Motivation
 
-Reference Videos : 
+The exercise here is to build out a training loop for an MNIST classifier using only numpy (vs. pytorch, etc.) to gain an appreciation and understanding of how neural networks actually work from the math up.
+
+All of it fits nicely into a Jupyter Notebook.
+
+I added some graphs for flavor at the bottom.
+
+
+
+#### Reference Videos : 
 - https://www.youtube.com/watch?v=w8yWXqWQYmU&t=13s
 - [3Blue1Brown neural net series](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 - [Karpathy : NN's from Zero to Hero](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
 
 
+#### Tools
+- ![Dataset: MNIST](https://img.shields.io/badge/dataset-MNIST-blue)
+- ![NumPy](https://img.shields.io/badge/built%20with-NumPy-013243?logo=numpy)
+
+
+---
+
 
 
 # MATH
 
-## forward pass
+## 1.) forward pass
 
 $m$ = the number of examples in our batch
 
@@ -49,7 +65,7 @@ $Z^{[2]} = W^{[2]}A^{[1]} + b^{[2]}$
 $A^{[2]} = g(Z^{[1]}) = softmax(Z^{[1]})$
 
 
-## back propagation
+## 2.) back propagation
 
 the derivatives starting from the right (Layer 2) 
 
@@ -68,7 +84,7 @@ $dW^{[1]} = \frac{1}{m} dZ^{[1]} X^{T}$
 $db^{[1]} = \frac{1}{m} \sum{dZ^{[1]}}$
 
 
-## update the parameters
+## 3.) update the parameters
 
 $W^{[1]} = W^{[1]} - \alpha dW^{[1]}$
 
