@@ -1,0 +1,27 @@
+[project]
+name = "mike-mnist"
+version = "0.1.0"
+description = "MNIST trained using only numpy - no NN frameworks like torch, etc."
+readme = "README.md"
+authors = [
+    { name = "mshimer", email = "mike_shimer@yahoo.com" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+]
+
+[project.scripts]
+mike-mnist = "mike_mnist:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.uv.workspace]
+members = [
+    "mike-mnist",
+]
