@@ -1,8 +1,8 @@
-# Training an MNIST classifier with numpy
+# Training an [MNIST](https://en.wikipedia.org/wiki/MNIST_database) classifier with numpy
 
 # Motivation
 
-The exercise here is to build out a training loop for an MNIST classifier using only numpy (vs. pytorch, etc.) to gain an appreciation and understanding of how neural networks actually work from the math up.
+The exercise here is to build out a training loop for an [MNIST](https://en.wikipedia.org/wiki/MNIST_database) classifier using only numpy (vs. pytorch, etc.) to gain an appreciation and understanding of how neural networks actually work from the math up.
 
 All of it fits nicely into the [mnist-notebook.ipynb](mnist-notebook.ipynb).
 
