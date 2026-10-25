@@ -1,4 +1,4 @@
-# Study Project : Train MNIST using numpy (no torch)
+# Training MNIST using numpy (no torch)
 
 # Motivation
 
